@@ -13,7 +13,7 @@ export default function Skills() {
   ];
 
   return (
-    <section className="px-6 py-16 text-center">
+    <section id="skills" className="px-6 py-16 text-center">
       <h2 className="text-3xl font-bold text-neutral-900 dark:text-white mb-8">
         Skills
       </h2>
