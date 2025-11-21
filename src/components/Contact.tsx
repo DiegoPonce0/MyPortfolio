@@ -7,7 +7,7 @@ export default function Contact() {
 
       <p className="text-neutral-700 dark:text-neutral-300 max-w-xl mx-auto mb-8">
         Have a project in mind or want to work together?  
-        Feel free to reach out — I respond within 24 hours.
+        Feel free to reach out I respond within 24 hours.
       </p>
 
       <a
