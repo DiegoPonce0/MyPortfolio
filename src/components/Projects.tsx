@@ -6,13 +6,13 @@ export default function Projects() {
     {
       title: "Dental Practice – Landing Page Development",
       desc: "High-converting landing page for a U.S. dental clinic, improving engagement and boosting online appointment requests.",
-      link: "https://coral-hare-100844.hostingersite.com/venenatis-urna-cursus-eget-nunc-scelerisque/",
+      link: "https://betterdentallife.com/",
       image: "/images/dental.webp",
     },
     {
       title: "Maya Printing Factory – Website Development",
       desc: "Responsive website for a Vancouver printing company, improving navigation, SEO, and client acquisition.",
-      link: "https://coral-hare-100844.hostingersite.com/massa-vitae-toutor-condimentum-lacinia-quis/",
+      link: "https://mayaprintingfactory.com/",
       image: "/images/printing.webp",
     },
   ];
