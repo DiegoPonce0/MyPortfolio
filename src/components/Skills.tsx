@@ -1,3 +1,6 @@
+import useScrollReveal from "../lib/useScrollReveal";
+import { cn } from "../lib/utils";
+
 export default function Skills() {
   const skills = [
     "React",
@@ -12,21 +15,30 @@ export default function Skills() {
     "Responsive Design",
   ];
 
-  return (
-    <section id="skills" className="px-6 py-16 text-center">
-      <h2 className="text-3xl font-bold text-neutral-900 dark:text-white mb-8">
-        Skills
-      </h2>
+  const { ref, isVisible } = useScrollReveal();
 
-      <div className="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
-        {skills.map((skill) => (
-          <span
-            key={skill}
-            className="px-4 py-2 rounded-full border border-neutral-300 dark:border-neutral-700 bg-white dark:bg-neutral-800 text-neutral-900 dark:text-white text-sm shadow-sm"
-          >
-            {skill}
-          </span>
-        ))}
+  return (
+    <section id="skills" className="px-6 py-16 text-center transition-theme">
+      <div
+        ref={ref as any}
+        className={cn(
+          "max-w-4xl mx-auto p-6",
+          "transform transition-all duration-700 ease-out",
+          isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
+        )}
+      >
+        <h2 className="text-3xl font-bold text-[#111827] dark:text-[#E2E8F0] mb-6">Skills</h2>
+
+        <div className="flex flex-wrap justify-center gap-4">
+          {skills.map((skill) => (
+            <span
+              key={skill}
+              className="px-4 py-2 rounded-full bg-[#F3F4F6] dark:bg-[#071223] text-[#111827] dark:text-[#E2E8F0] text-sm shadow-sm"
+            >
+              {skill}
+            </span>
+          ))}
+        </div>
       </div>
     </section>
   );
