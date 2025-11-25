@@ -40,7 +40,7 @@ export default function Projects() {
         >
           {projects.map((p) => (
             <Card key={p.title} className="overflow-hidden flex flex-col">
-              <div className="w-full h-56 flex items-center justify-center bg-[#F9FAFB] dark:bg-[#071223]">
+              <div className="w-full h-56 flex items-center justify-center bg-[#F9FAFB] dark:bg-[#313131ff]">
                 <img src={p.image} alt={p.title} className="max-h-full max-w-full object-contain" />
               </div>
 

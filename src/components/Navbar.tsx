@@ -22,7 +22,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className={`sticky top-0 z-50 w-full transition-theme ${scrolled ? 'shadow-sm' : ''} border-b border-gray-200 dark:border-neutral-800 bg-white/95 dark:bg-[#0F172A]/95 backdrop-blur-sm`}>
+    <nav className={`sticky top-0 z-50 w-full transition-theme ${scrolled ? 'shadow-sm' : ''} border-b border-gray-200 dark:border-neutral-800 bg-white/95 dark:bg-[#333333ff]/95 backdrop-blur-sm`}>
       <div className="w-full flex items-center justify-between px-6 py-3">
         <h1 className="text-lg md:text-xl font-bold text-[#111827] dark:text-[#E2E8F0]">Diego Portfolio</h1>
 

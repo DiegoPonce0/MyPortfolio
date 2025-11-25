@@ -10,7 +10,7 @@ export default function Contact() {
         ref={ref as any}
         className={cn(
           "mx-auto max-w-3xl p-8",
-          "rounded-xl bg-white dark:bg-[#0F172A] border border-gray-200 dark:border-neutral-800 shadow-md",
+          "rounded-xl bg-white dark:bg-[#2c2c2cff] border border-gray-200 dark:border-neutral-800 shadow-md",
           "transform transition-all duration-700 ease-out",
           isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
         )}
@@ -26,7 +26,7 @@ export default function Contact() {
 
         <a
           href="mailto:diego_lpz29@hotmail.com"
-          className="inline-block bg-[#4F46E5] text-white px-6 py-3 rounded-lg font-medium hover:shadow-md transition"
+          className="inline-block bg-[#139661ff] text-white px-6 py-3 rounded-lg font-medium hover:shadow-md transition"
         >
           Send Email
         </a>
