@@ -17,6 +17,12 @@ export default function Projects() {
       link: "https://mayaprintingfactory.com/",
       image: "/images/printing.webp",
     },
+    {
+      title: "Dumroo Media – Website Visual Enhancement",
+      desc: "Refined visual elements and layout for a Canadian video-marketing agency, improving UI consistency and overall user experience.",
+      link: "https://dumroomedia.ca/",
+      image: "/images/video-agency.webp",
+    },
   ];
 
   const { ref, isVisible } = useScrollReveal();
