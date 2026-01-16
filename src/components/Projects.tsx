@@ -23,6 +23,12 @@ export default function Projects() {
       link: "https://dumroomedia.ca/",
       image: "/images/video-agency.webp",
     },
+    {
+      title: "Dashboard UI – React Application",
+      desc: "Interactive dashboard UI built with React and Tailwind CSS, featuring dynamic charts and user-friendly navigation for data visualization.",
+      link: "https://vdmarketing.vercel.app/",
+      image: "/images/dashboard.webp",
+    }
   ];
 
   const { ref, isVisible } = useScrollReveal();
